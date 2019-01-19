@@ -1,1 +1,11 @@
+Tamzid Ullah
 
+A program to test various trading methods on the Forex Market specifically EURUSD. Some trading methods include: RSI, Bull/Bear Pin, Support/Resistance. It condenses minute high low open close to five minutes to a year. The user is a given a choice to run the methods on a specific timeframe, allowing the flexibility of seeing the bigger picture through larger and larger timeframes. I use candlestick structures to organize the price action. The rsi algorithym tracks the relative strength in price, if the rsi >= 70% it is overbought and so a short order will execute. If rsi <= 30% it is oversold --> buy order. Profit/Loss is recorded. The files are organized in terms of user interface file, candles/timeframe file, and algorithym file.
+
+Notes:
+
+To run this program you must first download the data text file externally: http://www.forextester.com/templates/data/files/EURUSD.zip
+
+Then, open EURUSD.txt and delete the 1st line- "<TICKER>,<DTYYYYMMDD>,<TIME>,<OPEN>,<HIGH>,<LOW>,<CLOSE>,<VOL>". It will interfere with the program.
+
+Lastly, you must place the edited EURUSD.txt under the same directory the program is in.
